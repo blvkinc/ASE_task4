@@ -3,8 +3,8 @@ package reflection_api;
 import java.lang.reflect.Field;
 
 /******************************************************************************
- * This experiment creates an instance of Simple and prints it out. It can be
- * observed that Simple's toString method is called implicitly.
+ * This experiment uses reflection to access and print the field values of a
+ * Simple instance, showcasing how reflection works with String data types.
  * 
  ******************************************************************************/
 
