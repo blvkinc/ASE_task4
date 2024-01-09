@@ -4,8 +4,7 @@ import java.lang.reflect.Parameter;
 import java.lang.reflect.Modifier;
 
 /**
- * This code demonstrates retrieving the modifier of a method as a String
- * (e.g., public, private) within the Simple class.
+This code shows how to get the modifier of a method within the Simple class as a String (public, private, etc.).
  */
 public class Reflection15 {
     public static void main(String[] args) {

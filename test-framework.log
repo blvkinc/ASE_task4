@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846286</millis>
+  <sequence>0</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.281]   Hello == Hello</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846296</millis>
+  <sequence>1</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  Hello == Hello</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846297</millis>
+  <sequence>2</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.297]   World == World</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846298</millis>
+  <sequence>3</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  World == World</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846299</millis>
+  <sequence>4</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.299]   World != Hello</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846299</millis>
+  <sequence>5</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  World != Hello</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846300</millis>
+  <sequence>6</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.300]   World != Different</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846301</millis>
+  <sequence>7</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  World != Different</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846301</millis>
+  <sequence>8</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.301]   Hello, Universe! == Hello, Universe!</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846302</millis>
+  <sequence>9</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  Hello, Universe! == Hello, Universe!</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846303</millis>
+  <sequence>10</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>SEVERE</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>handleException</method>
+  <thread>1</thread>
+  <message>Exception occurred during SimpleTests.assertPrivateConcatenateB: null</message>
+  <exception>
+    <message>java.lang.reflect.InvocationTargetException</message>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>tests.SimpleUnitTestFramework</class>
+      <method>runPrivateChecks</method>
+      <line>128</line>
+    </frame>
+    <frame>
+      <class>tests.SimpleUnitTestFramework</class>
+      <method>runChecks</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>tests.SimpleUnitTestFramework</class>
+      <method>main</method>
+      <line>190</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846305</millis>
+  <sequence>11</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.305] * Exception occurred during SimpleTests.assertPrivateConcatenateB: null</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846306</millis>
+  <sequence>12</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>* Exception occurred during SimpleTests.assertPrivateConcatenateB: null</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846307</millis>
+  <sequence>13</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>[2024-01-09T02:07:26.307] * Modified == World</message>
+</record>
+<record>
+  <date>2024-01-09T02:07:26</date>
+  <millis>1704794846308</millis>
+  <sequence>14</sequence>
+  <logger>tests.SimpleUnitTestFramework</logger>
+  <level>INFO</level>
+  <class>tests.SimpleUnitTestFramework</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>* Modified == World</message>
+</record>
+</log>
