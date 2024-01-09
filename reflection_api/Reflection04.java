@@ -20,7 +20,7 @@ public class Reflection04 {
         Field[] fields = s.getClass().getDeclaredFields();
         System.out.printf("There are %d fields\n", fields.length);
         for (Field f : fields) {
-            f.setAccessible(true); // Override access restrictions
+            f.setAccessible(false); // Override access restrictions
             if (f.getType() == String.class) {
                 System.out.printf("field name=%s type=%s value=%s\n", f.getName(),
                         f.getType(), f.get(s));
