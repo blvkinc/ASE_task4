@@ -3,7 +3,7 @@ package reflection_api;
 import java.lang.reflect.Method;
 
 /**
- creates an AnnotatedSimple class instance. uses the implicit toString method to print the class.
+ creates an Simple class instance. uses the implicit toString method to print the class.
  the class name is printed. prints every method name that has been declared in the class.
  */
 public class Reflection11 {
