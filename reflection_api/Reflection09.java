@@ -1,6 +1,5 @@
 package reflection_api;
 
-import reflection_api.Simple;
 import java.lang.reflect.Method;
 
 /**
